@@ -1,4 +1,23 @@
+# Dependencies
+lib/
+
+# Environment
 .env
-.out/
+.env.local
+.env.*.local
+
+# Build artifacts
+out/
 cache/
 broadcast/
+
+# Foundry
+forge-build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
