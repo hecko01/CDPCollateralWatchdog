@@ -77,7 +77,7 @@ To move from simulation to mainnet monitoring:
 5. Add Redundancy: Multiple data sources for critical metrics
 
 ## 📁 Project Structure
-CDPCollateralWatchdog/
+```CDPCollateralWatchdog/
 ├── src/
 │   ├── CDPCollateralTrap.sol      # Main trap logic
 │   ├── CDPCollateralResponse.sol  # Emergency response
@@ -88,6 +88,7 @@ CDPCollateralWatchdog/
 │   └── ITrap.sol                  # Drosera interface
 ├── drosera.toml                   # Network configuration
 └── foundry.toml                   # Build configuration
+```
 
 ## 🔍 Verification
 1. Dashboard Status: Check Drosera Dashboard for "Green" active status
