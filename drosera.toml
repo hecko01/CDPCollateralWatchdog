@@ -1,0 +1,16 @@
+ethereum_rpc = "https://rpc.hoodi.ethpandaops.io/"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps.cdp_collateral_watchdog]
+path = "out/CDPCollateralTrap.sol/CDPCollateralTrap.json"
+response_contract = "0x3FfEaB2D024BfF04D3e9AD97F954E87Dc8667Ef1"
+response_function = "emergencyResponse(bytes)"
+cooldown_period_blocks = 50
+min_number_of_operators = 1
+max_number_of_operators = 3
+block_sample_size = 1
+private = true
+private_trap = true
+address = "0x34c1842bC8260D925e1b14AC9E732Ca7139D6852"

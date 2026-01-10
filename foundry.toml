@@ -1,0 +1,11 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = "0.8.23"
+
+[rpc_endpoints]
+hoodi = "https://rpc.hoodi.ethpandaops.io/"
+
+[etherscan]
+hoodi = { key = "", url = "https://explorer.hoodi.ethpandaops.io/" }
